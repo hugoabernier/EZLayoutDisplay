@@ -21,6 +21,12 @@ namespace InvvardDev.EZLayoutDisplay.Desktop.Model
         public string Label { get; set; }
 
         /// <summary>
+        /// Gets the key custom label.
+        /// </summary>
+        [JsonProperty("customLabel")]
+        public string CustomLabel { get; set; }
+
+        /// <summary>
         /// Gets the key category.
         /// </summary>
         [JsonProperty("category")]
